@@ -17,3 +17,24 @@ Source_1 to download Juice_Shop - https://sourceforge.net/projects/juice-shop/fi
 Source_2 to download Juice_SHop - https://github.com/juice-shop/juice-shop/releases/
 
 ![juice-shop2-VMs](https://github.com/OrcaSysAdmin/OWASP-Juice_Shop/assets/158064048/3d8dec34-29c8-470e-b24b-c9acfd7a31e0)
+
+If you want use internet in both Kali-linux and OWASP Juice-shop which runs on Ubuntu please follow bellow steps:
+
+![Kali-linux VM Configuration](https://github.com/OrcaSysAdmin/OWASP-Juice_Shop/assets/158064048/71281fc8-4b8b-4ef0-8bde-07b1714cf8da)
+
+![Kali-linux VM Configuration_2](https://github.com/OrcaSysAdmin/OWASP-Juice_Shop/assets/158064048/b90dc02a-7b36-4626-b9cf-ae71bf59effd)
+
+![OWASP Juice-Shop VM](https://github.com/OrcaSysAdmin/OWASP-Juice_Shop/assets/158064048/c0b6a058-960d-41bf-a299-ef5ba41e5b7b)
+
+To whether you have access to WAN please ping 8.8.8.8 or ping google.com, you should get responses from google.com like below picture
+![Screenshot_3](https://github.com/OrcaSysAdmin/OWASP-Juice_Shop/assets/158064048/6ecdfa19-91e9-4336-b64a-fa69788641fe)
+
+Otherwise for Intranet please enable just Internal Network in the Adapter 1 in both Virtual machines:
+
+![Screenshot_1](https://github.com/OrcaSysAdmin/OWASP-Juice_Shop/assets/158064048/189df831-6fb7-4489-887a-768ba63c5560)
+
+![Screenshot_2](https://github.com/OrcaSysAdmin/OWASP-Juice_Shop/assets/158064048/5bc1ab69-94ce-4458-a245-ac59517fc4cf)
+
+
+
+
